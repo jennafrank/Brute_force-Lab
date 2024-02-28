@@ -4,12 +4,13 @@
 
 
 <h2>Description</h2>
-<b>This repository contains a PowerShell script designed to parse Windows Event Log information for failed RDP attacks. It utilizes a third-party API to gather geographic information about the attackers' location.
+<b>This repository had my heart racing! It houses a potent PowerShell script crafted to dissect Windows Event Log data, specifically targeting failed RDP attacks. Using a third-party API, the script uncovers the geographic origins of these malicious assaults.
+
+
 </b>
 <br />
 <br />
-The script is utilized in a demo scenario where Azure Sentinel (SIEM) is set up and connected to a live virtual machine acting as a honeypot. Live attacks, specifically RDP brute force attempts, are observed from various locations worldwide! A custom PowerShell script is employed to retrieve the attackers' geolocation information and plot it on an Azure Sentinel Map.
-
+In this thrilling demo, I showcase the script's prowess by integrating it with Azure Sentinel (SIEM) and deploying it alongside a live virtual machine configured as a honeypot. Prepare to witness real-time RDP Brute Force attacks from across the globe. With this custom PowerShell script, I unveil the attackers' geolocation information and visualize their movements on an Azure Sentinel Map!
 <br />
 <br />
 <p align="center">
@@ -34,8 +35,23 @@ The script is utilized in a demo scenario where Azure Sentinel (SIEM) is set up 
 <p align="center">
 <img src="https://i.imgur.com/krRFrK5.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
 </p>
-
-
+<br />
+<br />
+<h2>Key Features</h2>
+- <b>Extract RDP failed logon logs from Windows Event Viewer</b><br />
+- <b>Utilize ipgeolocation.io API to fetch geolocation data of attackers</b><br />
+- <b>Integrate with Azure Sentinel to monitor and respond to attacks</b><br />
+- <b>Visualize attacker geolocation information on an Azure Sentinel Map</b><br />
+<br />
+<br />
+<h2>Demo Overview</h2>
+- <b>Setup:</b> Configure Azure Sentinel and connect it to a live virtual machine acting as a honeypot.<br />
+- <b>Observation:</b> Monitor live RDP Brute Force attacks from around the world.<br />
+- <b>Analysis:</b> Execute the custom PowerShell script to extract and analyze failed RDP attack logs.<br />
+- <b>Visualization:</b> Plot attacker geolocation data on an Azure Sentinel Map for real-time insights.<br />
+<br />
+<h2>Contributors</h2>
+- <b>Jenna Frank</b><br />
 <!--
  ```diff
 - text in red

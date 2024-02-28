@@ -4,16 +4,14 @@
 
 
 <h2>Description</h2>
-<b>The Powershell script in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.
+<b>This repository contains a PowerShell script designed to parse Windows Event Log information for failed RDP attacks. It utilizes a third-party API to gather geographic information about the attackers' location.
 </b>
 <br />
 <br />
-The script is used in this demo where I setup Azure Sentinel (SIEM) and connected it to a live virtual machine acting as a honey pot.
-We will observe live attacks (RDP Brute Force) from all around the world. I will use a custom PowerShell script to
-look up the attackers Geolocation information and plot it on an Azure Sentinel Map!
-<br />
-<br />
+The script is utilized in a demo scenario where Azure Sentinel (SIEM) is set up and connected to a live virtual machine acting as a honeypot. Live attacks, specifically RDP brute force attempts, are observed from various locations worldwide! A custom PowerShell script is employed to retrieve the attackers' geolocation information and plot it on an Azure Sentinel Map.
 
+<br />
+<br />
 <p align="center">
 <img src="https://private-user-images.githubusercontent.com/151777956/308397332-01836cf5-794f-4747-80f2-ae0488e26997.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkwODc4NzEsIm5iZiI6MTcwOTA4NzU3MSwicGF0aCI6Ii8xNTE3Nzc5NTYvMzA4Mzk3MzMyLTAxODM2Y2Y1LTc5NGYtNDc0Ny04MGYyLWFlMDQ4OGUyNjk5Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIyOFQwMjMyNTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMjUxNzIxZDU1MDFhZWNhYTgzNzkzMmY0N2E2MjU4MjY1NzhiYzczMDIwNTJlYjI2OTFhZjY2Y2RlMzZlNzZhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.FjZ76NN6WbRJLwWW5LyjHlOZXYFSChb-5QGEwDC3CdA" height="85%" width="85%" alt="RDP event fail logs to iP Geographic information"/>
 </p>

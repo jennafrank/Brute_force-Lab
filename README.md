@@ -38,7 +38,7 @@ In this thrilling demo, I showcase the script's prowess by integrating it with A
 <br />
 <br />
 <h2>Key Features</h2>
-- <b>Extract RDP failed logon logs from Azure Log Analytics</b><br />
+- <b>Extract RDP failed logon logs from Windows Event Viewer</b><br />
 - <b>Utilize ipgeolocation.io API to fetch geolocation data of attackers</b><br />
 - <b>Integrate with Azure Sentinel to monitor and respond to attacks</b><br />
 - <b>Visualize attacker geolocation information on an Azure Sentinel Map</b><br />

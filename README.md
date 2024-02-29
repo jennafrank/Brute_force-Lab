@@ -10,7 +10,7 @@
 </b>
 <br />
 <br />
-In this thrilling demo, I showcase the script's prowess by integrating it with Azure Sentinel (SIEM) and deploying it alongside a live virtual machine configured as a honeypot. Prepare to witness real-time RDP Brute Force attacks from across the globe. With this custom PowerShell script, I unveil the attackers' geolocation information and visualize their movements on an Azure Sentinel Map!
+In this thrilling Lab, I showcase the script's prowess by integrating it with Azure Sentinel (SIEM) and deploying it alongside a live virtual machine configured as a honeypot. Prepare to witness real-time RDP Brute Force attacks from across the globe. With this custom PowerShell script, I unveil the attackers' geolocation information and visualize their movements on an Azure Sentinel Map!
 <br />
 <br />
 <p align="center">
@@ -44,7 +44,7 @@ In this thrilling demo, I showcase the script's prowess by integrating it with A
 - <b>Visualize attacker geolocation information on an Azure Sentinel Map</b><br />
 <br />
 <br />
-<h2>Demo Overview</h2>
+<h2>Lab Overview</h2>
 - <b>Setup:</b> Configure Azure Sentinel and connect it to a live virtual machine acting as a honeypot.<br />
 - <b>Observation:</b> Monitor live RDP Brute Force attacks from around the world.<br />
 - <b>Analysis:</b> Execute the custom PowerShell script to extract and analyze failed RDP attack logs.<br />

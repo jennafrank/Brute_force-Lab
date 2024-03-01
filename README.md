@@ -14,7 +14,8 @@ In this thrilling Lab, I showcase the script's prowess by integrating it with Az
 <br />
 <br />
 <p align="center">
-<img src="https://private-user-images.githubusercontent.com/151777956/308397332-01836cf5-794f-4747-80f2-ae0488e26997.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkyMjAyNTcsIm5iZiI6MTcwOTIxOTk1NywicGF0aCI6Ii8xNTE3Nzc5NTYvMzA4Mzk3MzMyLTAxODM2Y2Y1LTc5NGYtNDc0Ny04MGYyLWFlMDQ4OGUyNjk5Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIyOVQxNTE5MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00ZDRmNGE4Mzc0ZTJkNmVlMjc3Zjk0ZGUzYmNmMGYyMDYwZmI4ZjYwMjllODM3NzdlNzQ3NGU2ZjFiNzAyNTM5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Zn_-kbJ7cVAz8EEcezbbIF75LvIRdAFTj7QNNxlx2C0"/>
+ 
+<img src="https://imgur.com/VlzpCFD.png"/>
 </p>
 <h2>Languages Used</h2>
 
@@ -27,13 +28,13 @@ In this thrilling Lab, I showcase the script's prowess by integrating it with Az
 <h2>Attacks from Argentina coming in; Custom logs being output with geodata</h2>
 
 <p align="center">
-<img src="https://private-user-images.githubusercontent.com/151777956/308397369-4a2b2b2c-48b7-4662-bed7-3fb9dc280c78.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkwODc4NzEsIm5iZiI6MTcwOTA4NzU3MSwicGF0aCI6Ii8xNTE3Nzc5NTYvMzA4Mzk3MzY5LTRhMmIyYjJjLTQ4YjctNDY2Mi1iZWQ3LTNmYjlkYzI4MGM3OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIyOFQwMjMyNTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mZGFhYjIwZjFmNTJkYzgzMDhhYWYzZjQxMGFhYzM4ZTcwMGMwODZlZDFiYmY3YTFkOWIwYmU0NjBkZWY2ZjUxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.hHjUxEKiXcPtFN2H6cEjoObAKj5koRYOZ2OfkcVCYKw" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+<img src="https://imgur.com/oj7W78F.png"/>
 </p>
 
 <h2>World map of incoming attacks after 24 hours (built custom logs including geodata)</h2>
 
 <p align="center">
-<img src="https://private-user-images.githubusercontent.com/151777956/308974075-dc5bf5a4-fcf2-4a10-82b2-0578e5f406a7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkyMjAxOTMsIm5iZiI6MTcwOTIxOTg5MywicGF0aCI6Ii8xNTE3Nzc5NTYvMzA4OTc0MDc1LWRjNWJmNWE0LWZjZjItNGExMC04MmIyLTA1NzhlNWY0MDZhNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIyOVQxNTE4MTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zOTA3Y2M1MThjMzlmZmFiYTk3NTZhYzczNjMzMDZjNzFhNWFjZTQ5NWI0MDBhNzJkZTBjNGVlY2Y5MTI5YTBkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.k5b0XHHcCgNIUrgaOqabjFoNXin5EXBtYBcAOajowFM" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+<img src="https://imgur.com/8GMTPcw.png"/>
 </p>
 <br />
 <br />

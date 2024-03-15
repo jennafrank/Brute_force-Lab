@@ -1,13 +1,28 @@
 failed_rdp_honey_CL
-| extend username = extract(@"username:([^,]+)", 1, RawData),
-         timestamp = extract(@"timestamp:([^,]+)", 1, RawData),
-         latitude = extract(@"latitude:([^,]+)", 1, RawData),
-         longitude = extract(@"longitude:([^,]+)", 1, RawData),
-         sourcehost = extract(@"sourcehost:([^,]+)", 1, RawData),
-         state = extract(@"state:([^,]+)", 1, RawData),
-         label = extract(@"label:([^,]+)", 1, RawData),
-         destination = extract(@"destinationhost:([^,]+)", 1, RawData),
-         country = extract(@"country:([^,]+)", 1, RawData)
+let RawData = dynamic(["username": "username:user123,timestamp:2023-11-27 08:30:00,latitude:37.7749,longitude:-122.4194,sourcehost:192.0.2.1,state:CA,label:United States - 192.0.2.1,destinationhost:targethost,country:United States",
+                      "username": "username:user456,timestamp:2023-11-27 09:45:00,latitude:40.7128,longitude:-74.0060,sourcehost:203.0.113.1,state:NY,label:United States - 203.0.113.1,destinationhost:targethost,country:United States",
+                      "username": "username:user789,timestamp:2023-11-27 10:20:00,latitude:34.0522,longitude:-118.2437,sourcehost:198.51.100.1,state:CA,label:United States - 198.51.100.1,destinationhost:targethost,country:United States"]);
+
+let username = extract(@"username:([^,]+)", 1, RawData);
+let timestamp = extract(@"timestamp:([^,]+)", 1, RawData);
+let latitude = extract(@"latitude:([^,]+)", 1, RawData);
+let longitude = extract(@"longitude:([^,]+)", 1, RawData);
+let sourcehost = extract(@"sourcehost:([^,]+)", 1, RawData);
+let state = extract(@"state:([^,]+)", 1, RawData);
+let label = extract(@"label:([^,]+)", 1, RawData);
+let destination = extract(@"destinationhost:([^,]+)", 1, RawData);
+let country = extract(@"country:([^,]+)", 1, RawData);
+
+RawData
+| extend username = username
+| extend timestamp = timestamp
+| extend latitude = latitude
+| extend longitude = longitude
+| extend sourcehost = sourcehost
+| extend state = state
+| extend label = label
+| extend destination = destination
+| extend country = country
 | where destination != "samplehost"
 | where sourcehost != ""
 | summarize event_count=count() by latitude, longitude, sourcehost, label, destination, country
